@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		601B88062D9D4C5D00F5E268 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 601B88052D9D4C5D00F5E268 /* SDWebImageSwiftUI */; };
+		60B32D8B2D60C45D0006A4B3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 60B32D8A2D60C45D0006A4B3 /* FirebaseAuth */; };
+		60B32D8D2D60C45D0006A4B3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 60B32D8C2D60C45D0006A4B3 /* FirebaseFirestore */; };
+		60B32D8F2D60C45D0006A4B3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 60B32D8E2D60C45D0006A4B3 /* FirebaseStorage */; };
+		60C1E7A02D930F1500D66EA3 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 60C1E79F2D930F1500D66EA3 /* FirebaseFunctions */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		601057202D5E2D6F00DDEE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 601057072D5E2D6E00DDEE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6010570E2D5E2D6E00DDEE27;
+			remoteInfo = MuseMe;
+		};
+		6010572A2D5E2D6F00DDEE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 601057072D5E2D6E00DDEE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6010570E2D5E2D6E00DDEE27;
+			remoteInfo = MuseMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6032BE512D6901A3004D82A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6010570F2D5E2D6E00DDEE27 /* MuseMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6010571F2D5E2D6F00DDEE27 /* MuseMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		601057292D5E2D6F00DDEE27 /* MuseMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6032BE392D689CD7004D82A1 /* Exceptions for "MuseMe" folder in "MuseMe" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			attributesByRelativePath = {
+				SpotifyiOS.xcframework = (Required, );
+			};
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6010570E2D5E2D6E00DDEE27 /* MuseMe */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		6032BE522D6901A3004D82A1 /* Exceptions for "MuseMe" folder in "Embed Frameworks" phase from "MuseMe" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			attributesByRelativePath = {
+				SpotifyiOS.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+			};
+			buildPhase = 6032BE512D6901A3004D82A1 /* Embed Frameworks */;
+			membershipExceptions = (
+				SpotifyiOS.xcframework,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		601057112D5E2D6E00DDEE27 /* MuseMe */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6032BE392D689CD7004D82A1 /* Exceptions for "MuseMe" folder in "MuseMe" target */,
+				6032BE522D6901A3004D82A1 /* Exceptions for "MuseMe" folder in "Embed Frameworks" phase from "MuseMe" target */,
+			);
+			path = MuseMe;
+			sourceTree = "<group>";
+		};
+		601057222D5E2D6F00DDEE27 /* MuseMeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MuseMeTests;
+			sourceTree = "<group>";
+		};
+		6010572C2D5E2D6F00DDEE27 /* MuseMeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MuseMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6010570C2D5E2D6E00DDEE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601B88062D9D4C5D00F5E268 /* SDWebImageSwiftUI in Frameworks */,
+				60B32D8B2D60C45D0006A4B3 /* FirebaseAuth in Frameworks */,
+				60B32D8D2D60C45D0006A4B3 /* FirebaseFirestore in Frameworks */,
+				60C1E7A02D930F1500D66EA3 /* FirebaseFunctions in Frameworks */,
+				60B32D8F2D60C45D0006A4B3 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6010571C2D5E2D6F00DDEE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601057262D5E2D6F00DDEE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		601057062D5E2D6E00DDEE27 = {
+			isa = PBXGroup;
+			children = (
+				601057112D5E2D6E00DDEE27 /* MuseMe */,
+				601057222D5E2D6F00DDEE27 /* MuseMeTests */,
+				6010572C2D5E2D6F00DDEE27 /* MuseMeUITests */,
+				601057102D5E2D6E00DDEE27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		601057102D5E2D6E00DDEE27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6010570F2D5E2D6E00DDEE27 /* MuseMe.app */,
+				6010571F2D5E2D6F00DDEE27 /* MuseMeTests.xctest */,
+				601057292D5E2D6F00DDEE27 /* MuseMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6010570E2D5E2D6E00DDEE27 /* MuseMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601057332D5E2D6F00DDEE27 /* Build configuration list for PBXNativeTarget "MuseMe" */;
+			buildPhases = (
+				6010570B2D5E2D6E00DDEE27 /* Sources */,
+				6010570C2D5E2D6E00DDEE27 /* Frameworks */,
+				6010570D2D5E2D6E00DDEE27 /* Resources */,
+				6032BE512D6901A3004D82A1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				601057112D5E2D6E00DDEE27 /* MuseMe */,
+			);
+			name = MuseMe;
+			packageProductDependencies = (
+				60B32D8A2D60C45D0006A4B3 /* FirebaseAuth */,
+				60B32D8C2D60C45D0006A4B3 /* FirebaseFirestore */,
+				60B32D8E2D60C45D0006A4B3 /* FirebaseStorage */,
+				60C1E79F2D930F1500D66EA3 /* FirebaseFunctions */,
+				601B88052D9D4C5D00F5E268 /* SDWebImageSwiftUI */,
+			);
+			productName = MuseMe;
+			productReference = 6010570F2D5E2D6E00DDEE27 /* MuseMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6010571E2D5E2D6F00DDEE27 /* MuseMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601057362D5E2D6F00DDEE27 /* Build configuration list for PBXNativeTarget "MuseMeTests" */;
+			buildPhases = (
+				6010571B2D5E2D6F00DDEE27 /* Sources */,
+				6010571C2D5E2D6F00DDEE27 /* Frameworks */,
+				6010571D2D5E2D6F00DDEE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				601057212D5E2D6F00DDEE27 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				601057222D5E2D6F00DDEE27 /* MuseMeTests */,
+			);
+			name = MuseMeTests;
+			packageProductDependencies = (
+			);
+			productName = MuseMeTests;
+			productReference = 6010571F2D5E2D6F00DDEE27 /* MuseMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		601057282D5E2D6F00DDEE27 /* MuseMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601057392D5E2D6F00DDEE27 /* Build configuration list for PBXNativeTarget "MuseMeUITests" */;
+			buildPhases = (
+				601057252D5E2D6F00DDEE27 /* Sources */,
+				601057262D5E2D6F00DDEE27 /* Frameworks */,
+				601057272D5E2D6F00DDEE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6010572B2D5E2D6F00DDEE27 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6010572C2D5E2D6F00DDEE27 /* MuseMeUITests */,
+			);
+			name = MuseMeUITests;
+			packageProductDependencies = (
+			);
+			productName = MuseMeUITests;
+			productReference = 601057292D5E2D6F00DDEE27 /* MuseMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		601057072D5E2D6E00DDEE27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					6010570E2D5E2D6E00DDEE27 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+					6010571E2D5E2D6F00DDEE27 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6010570E2D5E2D6E00DDEE27;
+					};
+					601057282D5E2D6F00DDEE27 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6010570E2D5E2D6E00DDEE27;
+					};
+				};
+			};
+			buildConfigurationList = 6010570A2D5E2D6E00DDEE27 /* Build configuration list for PBXProject "MuseMe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 601057062D5E2D6E00DDEE27;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				60B32D772D60B04C0006A4B3 /* XCRemoteSwiftPackageReference "AudioKit" */,
+				60B32D892D60C45D0006A4B3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				601B88042D9D4C5D00F5E268 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 601057102D5E2D6E00DDEE27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6010570E2D5E2D6E00DDEE27 /* MuseMe */,
+				6010571E2D5E2D6F00DDEE27 /* MuseMeTests */,
+				601057282D5E2D6F00DDEE27 /* MuseMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6010570D2D5E2D6E00DDEE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6010571D2D5E2D6F00DDEE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601057272D5E2D6F00DDEE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6010570B2D5E2D6E00DDEE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6010571B2D5E2D6F00DDEE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601057252D5E2D6F00DDEE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		601057212D5E2D6F00DDEE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6010570E2D5E2D6E00DDEE27 /* MuseMe */;
+			targetProxy = 601057202D5E2D6F00DDEE27 /* PBXContainerItemProxy */;
+		};
+		6010572B2D5E2D6F00DDEE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6010570E2D5E2D6E00DDEE27 /* MuseMe */;
+			targetProxy = 6010572A2D5E2D6F00DDEE27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		601057312D5E2D6F00DDEE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		601057322D5E2D6F00DDEE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		601057342D5E2D6F00DDEE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MuseMe/MuseMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuseMe/Preview Content\"";
+				DEVELOPMENT_TEAM = VAZAF32K55;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MuseMe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blazejfaber.MuseMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MuseMe/MuseMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		601057352D5E2D6F00DDEE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MuseMe/MuseMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuseMe/Preview Content\"";
+				DEVELOPMENT_TEAM = VAZAF32K55;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MuseMe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blazejfaber.MuseMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MuseMe/MuseMe-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		601057372D5E2D6F00DDEE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VAZAF32K55;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blazejfaber.MuseMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MuseMe";
+			};
+			name = Debug;
+		};
+		601057382D5E2D6F00DDEE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VAZAF32K55;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blazejfaber.MuseMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MuseMe";
+			};
+			name = Release;
+		};
+		6010573A2D5E2D6F00DDEE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VAZAF32K55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blazejfaber.MuseMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuseMe;
+			};
+			name = Debug;
+		};
+		6010573B2D5E2D6F00DDEE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VAZAF32K55;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blazejfaber.MuseMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuseMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6010570A2D5E2D6E00DDEE27 /* Build configuration list for PBXProject "MuseMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601057312D5E2D6F00DDEE27 /* Debug */,
+				601057322D5E2D6F00DDEE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601057332D5E2D6F00DDEE27 /* Build configuration list for PBXNativeTarget "MuseMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601057342D5E2D6F00DDEE27 /* Debug */,
+				601057352D5E2D6F00DDEE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601057362D5E2D6F00DDEE27 /* Build configuration list for PBXNativeTarget "MuseMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601057372D5E2D6F00DDEE27 /* Debug */,
+				601057382D5E2D6F00DDEE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601057392D5E2D6F00DDEE27 /* Build configuration list for PBXNativeTarget "MuseMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6010573A2D5E2D6F00DDEE27 /* Debug */,
+				6010573B2D5E2D6F00DDEE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		601B88042D9D4C5D00F5E268 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+		60B32D772D60B04C0006A4B3 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.4;
+			};
+		};
+		60B32D892D60C45D0006A4B3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		601B88052D9D4C5D00F5E268 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 601B88042D9D4C5D00F5E268 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		60B32D8A2D60C45D0006A4B3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60B32D892D60C45D0006A4B3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		60B32D8C2D60C45D0006A4B3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60B32D892D60C45D0006A4B3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		60B32D8E2D60C45D0006A4B3 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60B32D892D60C45D0006A4B3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		60C1E79F2D930F1500D66EA3 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60B32D892D60C45D0006A4B3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 601057072D5E2D6E00DDEE27 /* Project object */;
+}

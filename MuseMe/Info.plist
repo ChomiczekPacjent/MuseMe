@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>UILaunchStoryboardName</key>
+    <string>Launch Screen.storyboard</string>
+
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Aplikacja używa Bluetooth do odczytywania danych tętna z urządzenia Garmin.</string>
+
+    <key>NSHealthShareUsageDescription</key>
+    <string>MuseMe needs access to your health data to personalize music playback.</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>This data is used to display your heart rate, steps and calories inside the app.</string>
+
+    <key>CFBundleIdentifier</key>
+    <string></string>
+
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>spotify</string>
+    </array>
+
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.blazejfaber.MuseMe</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>MuseMe</string>
+            </array>
+        </dict>
+    </array>
+    
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <true/>
+        <key>UISceneConfigurations</key>
+        <dict>
+            <key>UIWindowSceneSessionRoleApplication</key>
+            <array>
+                <dict>
+                    <key>UISceneDelegateClassName</key>
+                    <string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+                </dict>
+            </array>
+        </dict>
+    </dict>
+
+</dict>
+</plist>
